@@ -7,6 +7,7 @@ class Application(tk.Frame):
         super().__init__(master)
 
         # Windowの画面サイズを設定する。
+        # geometryについて : https://kuroro.blog/python/rozH3S2CYE0a0nB3s2QL/
         self.master.geometry("300x200")
 
         # labelframe Widgetを作成する。
@@ -25,6 +26,7 @@ class Application(tk.Frame):
         # height : 高さの設定
         # bg : 背景色の設定
         # 色の設定を変更する場合 : http://www.tcl.tk/man/tcl/TkCmd/colors.htm
+        # Labelについて : https://kuroro.blog/python/Pj4Z7JBNRvcHZvtFqiKD/
         label = tk.Label(labelframe, text="label",
                          width=30, height=15, bg="orchid4")
 
@@ -38,4 +40,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = Application(master=root)
     # Windowをループさせて、継続的にWindow表示させる。
+    # mainloopについて : https://kuroro.blog/python/DmJdUb50oAhmBteRa4fi/
     app.mainloop()

@@ -25,7 +25,7 @@ class Application(tk.Frame):
         # width : 幅の設定
         # height : 高さの設定
         # bg : 背景色の設定
-        # 色の設定を変更する場合 : http://www.tcl.tk/man/tcl/TkCmd/colors.htm
+        # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
         # Labelについて : https://kuroro.blog/python/Pj4Z7JBNRvcHZvtFqiKD/
         label = tk.Label(labelframe, text="label", width=30, height=15, bg="blue")
 

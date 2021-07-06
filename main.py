@@ -16,7 +16,7 @@ class Application(tk.Frame):
         # height : 高さの設定
         labelframe = tk.LabelFrame(self.master, text="labelframe", width=300, height=300)
 
-        # Windowを親要素とした場合に、labelframe Widgetをどのように配置するのか?
+        # Windowを親要素とした場合に、labelframe Widget(Frame)をどのように配置するのか?
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
         labelframe.pack()
 
